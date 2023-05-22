@@ -3,4 +3,34 @@
 /* Paleta de Cores
 --------------------
 -Verde: #49a09d
--Lilás: #5f2c82
+-Lilás: #5f2c82  
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    box-sizing: border-box; /*Para a borda faça parte da conta de largura da tela */
+}
+
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
