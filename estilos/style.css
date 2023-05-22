@@ -35,11 +35,14 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+
+    transition: width 0.6s, height 0.6s;
 }
 
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/fundo.jpg) no-repeat;
+    background-position: center center;
     height: 200px;
     background-size: cover;
 }
